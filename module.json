@@ -1,0 +1,36 @@
+{
+  "id": "gambitsIdentificationInhibitor",
+  "title": "Gambit's Identification Inhibitor",
+  "description": "A tool to prevent players from identifying unidentified items.",
+  "authors": [
+    {
+      "name": "Gambit",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12.328,
+    "verified": 13.341,
+    "maximum": 13.999
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "5.0.1",
+          "maximum": "5.9.99"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/gambit07/gambitsIdentificationInhibitor",
+  "manifest": "",
+  "download": ""
+}
