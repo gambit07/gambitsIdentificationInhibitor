@@ -5,4 +5,3 @@
 <p style="text-align: center;"><a href="https://ko-fi.com/gambit07" target="_blank" rel="nofollow noopener"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" /></a> <a href="https://www.patreon.com/GambitsLounge" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Patreon-Gambits Lounge-F96854?style=for-the-badge&amp;logo=patreon" alt="Patreon Gambits Lounge" /> </a></p>
 <hr />
 <p>An extremely simple module to prevent your players from identifying unidentified items! You can include a customizable error message to players in the modules settings.</p>
-<p>https://github.com/user-attachments/assets/653088a1-0232-4386-8c4a-aa9c8685eaf9</p>
