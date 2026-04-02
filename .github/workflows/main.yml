@@ -18,7 +18,7 @@ jobs:
       - name: Set Release Notes for Github
         id: set-release-notes-github
         run: |
-          echo "- Initial Foundry Release!" >> release_notes.txt
+          echo "- Foundry V14 Release!" >> release_notes.txt
           echo "release-notes-github<<EOF" >> $GITHUB_ENV
           cat release_notes.txt >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
@@ -69,9 +69,9 @@ jobs:
               "download": "'"https://github.com/gambit07/gambitsIdentificationInhibitor/releases/download/${{ steps.get-version.outputs.version }}/module.zip"'",
               "notes": "'"https://github.com/gambit07/gambitsIdentificationInhibitor/releases/tag/${{ steps.get-version.outputs.version }}"'",
               "compatibility": {
-                "minimum": "'"12.328"'",
-                "verified": "'"13.342"'",
-                "maximum": "'"13.999"'"
+                "minimum": "'"12"'",
+                "verified": "'"14"'",
+                "maximum": "'"14"'"
               }
             }
           }'
