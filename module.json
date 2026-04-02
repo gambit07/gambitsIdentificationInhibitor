@@ -8,11 +8,11 @@
       "flags": {}
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.3",
   "compatibility": {
-    "minimum": 12.328,
-    "verified": 13.342,
-    "maximum": 13.999
+    "minimum": 12,
+    "verified": 14,
+    "maximum": 14
   },
   "esmodules": [
     "scripts/module.js"
