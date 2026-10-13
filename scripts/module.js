@@ -11,7 +11,8 @@ Hooks.once('init', async function() {
 
 Hooks.once('ready', async function() {
     Hooks.on("preUpdateItem", (item, update, options) => {
-        if (!game.user.isGM && !item.system?.identified && "identified" in (update.system ?? {}) && !options?.isAdvancement) {
+        const identified = update.system?.identified ?? update["system.identified"];
+        if (!game.user.isGM && item.system?.identified === false && identified === true && !options?.isAdvancement) {
             ui.notifications.error(`${game.settings.get("gambitsIdentificationInhibitor", "identifyRestrictionMessage")}`);
             return false;
         }
