@@ -4,4 +4,4 @@
 <h2 style="text-align: center;">Supporting The Module</h2>
 <p style="text-align: center;"><a href="https://ko-fi.com/gambit07" target="_blank" rel="nofollow noopener"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" /></a> <a href="https://www.patreon.com/GambitsLounge" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Patreon-Gambits Lounge-F96854?style=for-the-badge&amp;logo=patreon" alt="Patreon Gambits Lounge" /> </a></p>
 <hr />
-<p>An extremely simple module to prevent your players from identifying unidentified items! You can include a customizable error message to players in the modules settings.</p>
+<p>An extremely simple module to prevent your players from identifying unidentified items! You can include a customizable error message to players in the modules settings. NOTE: Players who can code could still find ways to bypass this restriction, this is mainly meant as a UI safeguard to stop players from easily flipping the items toggle accidentally on purpose to take a quick and naughty peak at something they shouldn't.</p>
